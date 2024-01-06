@@ -2,7 +2,7 @@
 <p align="center">
 <kbd>
 <a href="https://nate-games.xyz">
-<img style="border-radius:50%" height="150px" src="https://raw.githubusercontent.com/nate-games/nate-games.github.io/main/favicon.ico"></a>
+<img style="border-radius:50%" height="150px" src="https://raw.githubusercontent.com/nate-games/nate-games.xyz/main/favicon.ico"></a>
 </kbd>
 </p>
 
