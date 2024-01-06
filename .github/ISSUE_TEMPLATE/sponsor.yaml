@@ -1,0 +1,30 @@
+name: Sponsor
+description: Sponsored us? Fill out this form.
+title: "Sponsor Form"
+labels:
+  - sponsor-form
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: The name of your organization or use your github username.
+      placeholder: Example OR nate-games
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Website
+      description: What is your organization's website or use your github profile.
+      placeholder: https://example.com OR https://github.com/nate-games
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A description of your website or why you decided to sponsor us.
+      placeholder: Example.com is for use in illustrative examples in documents. You may use this domain in literature without prior coordination or asking for permission.
+    validations:
+      required: true
