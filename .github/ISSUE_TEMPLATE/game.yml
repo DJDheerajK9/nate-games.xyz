@@ -20,10 +20,10 @@ body:
       placeholder: https://cdn.nate-games.xyz/2048/
     validations:
       required: true
-    - type: input
+  - type: input
     id: image
     attributes:
-      label: "Image url
+      label: "Image url"
       description: The link to the image
       placeholder: https://cdn.nate-games.xyz/game/img/2048.png
     validations:
