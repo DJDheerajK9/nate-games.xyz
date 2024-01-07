@@ -9,7 +9,7 @@ body:
     attributes:
       label: Title
       description: The game title
-      placeholder: 2048
+      placeholder: "2048"
     validations:
       required: true
   - type: input
