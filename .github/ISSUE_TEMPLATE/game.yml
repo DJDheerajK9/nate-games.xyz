@@ -1,0 +1,30 @@
+name: Add a game
+description: issues accepted from @cyaban
+title: "Add a game form"
+labels:
+  - game-form
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: The game title
+      placeholder: 2048
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: CDN url
+      description: The complete link of the game.
+      placeholder: https://cdn.nate-games.xyz/2048/
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A description of the game
+      placeholder: 2048 is a puzzle game where you merge the tiles until they add up to 2048, covering the entire grid will make you lose!
+    validations:
+      required: true
