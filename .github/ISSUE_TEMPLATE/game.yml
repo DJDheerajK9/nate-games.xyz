@@ -7,7 +7,7 @@ body:
   - type: input
     id: title
     attributes:
-      label: Title
+      label: "Title"
       description: The game title
       placeholder: "2048"
     validations:
@@ -15,9 +15,17 @@ body:
   - type: input
     id: url
     attributes:
-      label: CDN url
-      description: The complete link of the game.
-      placeholder: https://cdn.nate-games.xyz/2048/
+      label: "CDN url"
+      description: "The complete link of the game."
+      placeholder: "https://cdn.nate-games.xyz/2048/"
+    validations:
+      required: true
+    - type: input
+    id: image
+    attributes:
+      label: "Image url
+      description: "The link to the image"
+      placeholder: "https://cdn.nate-games.xyz/game/img/2048.png"
     validations:
       required: true
   - type: textarea
